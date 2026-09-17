@@ -68,8 +68,6 @@ The Entity Relationship Diagram illustrates the structure of the hotel reservati
 
 The model places **Tabel Fakta Reservasi Hotel** at the center and connects it to the relevant dimensions through their corresponding identifiers.
 
-![Hotel Reservation ERD](erd/ERD_Reservasi_Hotel.png)
-
 ---
 
 ## Data Modeling
