@@ -66,8 +66,6 @@ The fact table is connected to several dimension tables:
 
 The Entity Relationship Diagram illustrates the structure of the hotel reservation database and the relationships between the fact table and its related dimensions.
 
-![Hotel Reservation ERD](erd/ERD_Reservasi_Hotel.png)
-
 The model places **Tabel Fakta Reservasi Hotel** at the center and connects it to the relevant dimensions through their corresponding identifiers.
 
 ---
@@ -103,69 +101,4 @@ The main SQL file is:
 sql/
 └── reservasi_hotel.sql
 
----
 
-## Data Structure
-data/
-├── tabel_fakta.csv
-├── dim_kota_hotel.csv
-├── dim_metode_pembayaran.csv
-├── dim_status_reservasi.csv
-├── dim_tamu.csv
-├── dim_tanggal_checkin.csv
-├── dim_tanggal_checkout.csv
-└── dim_tipe_kamar.csv
-
----
-
-## Repository Structure
-hotel-reservation-data-warehouse/
-│
-├── README.md
-│
-├── sql/
-│   └── reservasi_hotel.sql
-│
-├── data/
-│   ├── tabel_fakta.csv
-│   ├── dim_kota_hotel.csv
-│   ├── dim_metode_pembayaran.csv
-│   ├── dim_status_reservasi.csv
-│   ├── dim_tamu.csv
-│   ├── dim_tanggal_checkin.csv
-│   ├── dim_tanggal_checkout.csv
-│   └── dim_tipe_kamar.csv
-│
-└── erd/
-    └── ERD_Reservasi_Hotel.png
-
----
-
-## Tools & Technologies
-SQL
-Relational Database
-Data Warehouse
-Dimensional Modeling
-Star Schema
-Entity Relationship Diagram (ERD)
-CSV
-
----
-
-## Project Deliverables
-
-The main deliverables of this project are:
-
-Hotel reservation data warehouse structure
-Fact and dimension tables
-SQL database implementation
-Master data in CSV format
-Entity Relationship Diagram (ERD)
-
----
-
-## Limitations
-
-This project focuses on the design and implementation of the hotel reservation data warehouse.
-
-The repository does not represent a production hotel reservation system. The data warehouse is intended primarily for learning, data modeling, database implementation, and analytical purposes.
