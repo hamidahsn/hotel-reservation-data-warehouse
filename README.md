@@ -68,6 +68,8 @@ The Entity Relationship Diagram illustrates the structure of the hotel reservati
 
 The model places **Tabel Fakta Reservasi Hotel** at the center and connects it to the relevant dimensions through their corresponding identifiers.
 
+![Hotel Reservation ERD](erd/ERD_Reservasi_Hotel.png)
+
 ---
 
 ## Data Modeling
@@ -89,22 +91,24 @@ This structure allows reservation transactions to be analyzed from different per
 
 ---
 
----
+## SQL Implementation
 
-## Data Structure
-data/
-├── tabel_fakta.csv
-├── dim_kota_hotel.csv
-├── dim_metode_pembayaran.csv
-├── dim_status_reservasi.csv
-├── dim_tamu.csv
-├── dim_tanggal_checkin.csv
-├── dim_tanggal_checkout.csv
-└── dim_tipe_kamar.csv
+The SQL script contains the database implementation for the hotel reservation data warehouse.
+
+The SQL workflow includes the creation and population of tables required for the reservation database.
+
+The main SQL file is:
+
+```text
+sql/
+└── reservasi_hotel.sql
+```
 
 ---
 
 ## Repository Structure
+
+```text
 hotel-reservation-data-warehouse/
 │
 ├── README.md
@@ -124,29 +128,19 @@ hotel-reservation-data-warehouse/
 │
 └── erd/
     └── ERD_Reservasi_Hotel.png
+```
 
 ---
 
 ## Tools & Technologies
-SQL
-Relational Database
-Data Warehouse
-Dimensional Modeling
-Star Schema
-Entity Relationship Diagram (ERD)
-CSV
 
----
-
-## Project Deliverables
-
-The main deliverables of this project are:
-
-Hotel reservation data warehouse structure
-Fact and dimension tables
-SQL database implementation
-Master data in CSV format
-Entity Relationship Diagram (ERD)
+- SQL
+- Relational Database
+- Data Warehouse
+- Dimensional Modeling
+- Star Schema
+- Entity Relationship Diagram (ERD)
+- CSV
 
 ---
 
@@ -157,15 +151,11 @@ This project focuses on the design and implementation of the hotel reservation d
 The repository does not represent a production hotel reservation system. The data warehouse is intended primarily for learning, data modeling, database implementation, and analytical purposes.
 
 ---
-## SQL Implementation
 
-The SQL script contains the database implementation for the hotel reservation data warehouse.
+## Author
 
-The SQL workflow includes the creation and population of tables required for the reservation database.
+**Hamida**
 
-The main SQL file is:
+Data Analyst | Data Science Trainee
 
-```text
-sql/
-└── reservasi_hotel.sql
-
+PPKD Jakarta Selatan — 2026
