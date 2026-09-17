@@ -89,6 +89,74 @@ This structure allows reservation transactions to be analyzed from different per
 
 ---
 
+---
+
+## Data Structure
+data/
+├── tabel_fakta.csv
+├── dim_kota_hotel.csv
+├── dim_metode_pembayaran.csv
+├── dim_status_reservasi.csv
+├── dim_tamu.csv
+├── dim_tanggal_checkin.csv
+├── dim_tanggal_checkout.csv
+└── dim_tipe_kamar.csv
+
+---
+
+## Repository Structure
+hotel-reservation-data-warehouse/
+│
+├── README.md
+│
+├── sql/
+│   └── reservasi_hotel.sql
+│
+├── data/
+│   ├── tabel_fakta.csv
+│   ├── dim_kota_hotel.csv
+│   ├── dim_metode_pembayaran.csv
+│   ├── dim_status_reservasi.csv
+│   ├── dim_tamu.csv
+│   ├── dim_tanggal_checkin.csv
+│   ├── dim_tanggal_checkout.csv
+│   └── dim_tipe_kamar.csv
+│
+└── erd/
+    └── ERD_Reservasi_Hotel.png
+
+---
+
+## Tools & Technologies
+SQL
+Relational Database
+Data Warehouse
+Dimensional Modeling
+Star Schema
+Entity Relationship Diagram (ERD)
+CSV
+
+---
+
+## Project Deliverables
+
+The main deliverables of this project are:
+
+Hotel reservation data warehouse structure
+Fact and dimension tables
+SQL database implementation
+Master data in CSV format
+Entity Relationship Diagram (ERD)
+
+---
+
+## Limitations
+
+This project focuses on the design and implementation of the hotel reservation data warehouse.
+
+The repository does not represent a production hotel reservation system. The data warehouse is intended primarily for learning, data modeling, database implementation, and analytical purposes.
+
+---
 ## SQL Implementation
 
 The SQL script contains the database implementation for the hotel reservation data warehouse.
@@ -100,5 +168,4 @@ The main SQL file is:
 ```text
 sql/
 └── reservasi_hotel.sql
-
 
